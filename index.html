@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <!--==Estilização==-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--==conexões externas==-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--==logotipo do site==-->
+    <section class="hero">
+        <nav>
+            <img src="/img/logo.png" class="logo">
+            <ul>
+                <li><a href="https://github.com/joaovitorfe">GitHub</a></li>
+                <li><a href="/img/curriculo.pdf">Curriculum</a></li> <!--==curriculo atualizado==-->
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+      <!--==script==-->
+        <div class="main-text">
+          <h1>I am one <br> <span class="input"></span></h1>
+        </div>
+         <!--==mais sobre mim==-->
+        <div class="about">
+            <h1  class="title">About</h1>
+            <img src="/img/foto.jpg" class="foto">
+            <p class="texto">Meu nome é João Vitor Ferreira, sou apaixonado pela ciência e tecnologia incluindo física e computação; atualmente trabalho na área de programação cujo sou apaixonado pelo desenvolvimento tecnológico. Trabalhei na área de programação de sites de 2016 a 2018. Saí da área para trabalhar na área laboratorial química. Voltei a realizar serviços no inicio de 2022, trabalhando agora em regime PJ na área de programação.</p>
+        </div>
+         <!--==linguagens de criação==-->
+        <h1 class="linguagens">Linguagens de programação</h1>
+        <div class="tecnologias">
+            <img src="/img/javascript.png" alt="">
+            <img src="/img/html.png" alt="">
+            <img src="/img/css.png" alt="">
+            <img src="/img/nodejs.png" alt="">   
+        </div>
+        </div>
+        <footer>
+            ® João Vitor Ferreira – Todos os direitos reservados. 47.650.796/0001-91 
+        </footer>
+    </section>
+
+    <!--==javascript de loop das letras do site==-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Developer","Freelancer"],
+            typeSpeed: 120,
+            backSpeed: 110,
+            loop: true
+        })
+    </script>
+</body>
+</html>
